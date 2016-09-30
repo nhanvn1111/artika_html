@@ -1,0 +1,117 @@
+/* RESPONSIVE THEME */
+
+/* change the value width below
+to set your responsive view elements */
+
+@media screen and (max-width: 1400px) {	
+
+	/* responsive disable */
+	.resp-n { display: none; }
+	.full-h { height: auto; }
+
+}
+
+@media screen and (min-width: 1200px) {	
+	
+	.mob-m { display: none; }
+
+}
+
+@media screen and (max-width: 1200px) {	
+
+	.main-m { display: none; }
+	.mob-m { display: block; }
+	
+	.switch { display: block; }
+	
+	.bg-fix { background-attachment: scroll; }
+
+	/* tablte hidden */
+	.tab-n { display: none; }
+	
+}
+
+@media screen and (max-width: 900px) {	
+
+	.head-b { font-size: 70px; }
+	.head-m { font-size: 60px; }
+	.head-s { font-size: 50px; }
+	
+	.aside-left {
+		margin-bottom: 50px;
+	}
+	
+}
+
+@media screen and (max-width: 600px) {	
+	
+	.header {
+		margin: 0 !important;
+	}
+	
+	header .logo {
+		margin: 0 25px;
+	}
+	
+	header.posit-f { 
+		position: static;
+	}
+	
+	.nav-bott { 
+		top: 120px; 
+		bottom: inherit;  
+	}
+	
+	.map {
+		height: 300px;
+	}
+	
+	.page {
+		padding-top: 0;
+	}	
+	
+	.page-post .overl {
+		padding-top: 0;
+	}
+	
+	/* mobile hidden */
+	
+	.mob-n { display: none; }
+	
+	/* strict typoghraphy */
+	
+	.head-b { font-size: 50px; }
+	.head-m { font-size: 45px; }
+	.head-s { font-size: 40px; }
+	
+	.caption-b {
+		font-size: 35px;
+	}
+	
+	.caption-m {
+		font-size: 32px;
+	}
+	
+	.caption-s {
+		font-size: 28px;
+	}
+	
+	.title-b {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	
+	.title-m {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	
+	.title-s {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	
+	/* width */
+	[class^="w-"] { width: 100%; }
+	
+}

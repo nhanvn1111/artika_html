@@ -1,0 +1,51 @@
+/* RESPONSIVE THEME */
+
+/* change the value width below
+to set your responsive view elements */
+
+@media screen and (max-width: 1400px) {	
+
+	/* responsive disable */
+	.resp-n { display: none; }
+	.full-h { height: auto; }
+
+}
+
+@media screen and (min-width: 1200px) {	
+	
+	.mob-m { display: none; }
+
+}
+
+@media screen and (max-width: 1200px) {	
+
+	.main-m { display: none; }
+	.mob-m { display: block; }
+	
+	.switch { display: block; }
+		
+}
+
+@media screen and (max-width: 900px) {	
+
+	.head-b { font-size: 70px; }
+	.head-m { font-size: 60px; }
+	.head-s { font-size: 50px; }
+	
+	.caption-b { font-size: 40px; }
+	.caption-m { font-size: 25px; }
+	.caption-s { font-size: 22px; }
+
+}
+
+@media screen and (max-width: 600px) {	
+
+	header.posit-f { position: static; }
+	.nav-bott { top: 120px; bottom: inherit;  }
+	
+	.mob-n { display: none; }
+	
+	/* width */
+	[class^="w-"] { width: 100%; }
+	
+}

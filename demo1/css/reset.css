@@ -1,0 +1,168 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    color: #333;
+    font-size: 14px;
+	font-weight: 300;
+    height: 100%;
+    width: 100%;
+}
+
+img, a, ul, li {
+    border: none;
+    outline: none;
+}
+
+ol li, ul li {
+    list-style: none;
+}
+
+a:link, a:visited, a:active {
+    color: inherit;
+}
+
+:focus {
+	outline: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* html 5 */
+
+header, nav, section, article, footer {
+    display: block;
+}
+
+/* input */
+
+input, select, textarea {
+	border-radius: 0;
+	border: none;
+	outline: none;
+	
+	appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	-webkit-appearance: none;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	
+	width: 100%;
+	
+	font-family: 'Raleway';
+	font-size: 16px;
+	font-weight: 300;
+}
+
+input[type="submit"],
+input[type="reset"] {
+	cursor: pointer;
+	width: 100px;
+}
+
+/* 2 - TYPOGRAPHY */
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 150%;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 25px;
+	line-height: 30px;
+}
+
+label {
+	display: block;
+	margin-bottom: 25px;
+}
+
+caption {
+	display: block;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: 700;
+}
+
+ul li,
+ol li {
+	list-style-position: inside !important;
+}
+
+article ul li,
+article ol ul li {
+	list-style: square;
+}
+
+article ul ul li,
+article ol ul li,
+article ol ol li,
+article ul ol li {
+	text-indent: 25px;
+}
+
+article ol li {
+	list-style: decimal;
+}
+
+blockquote {
+    font-weight: 300;
+    margin-bottom: 25px;
+    padding: 25px;
+	letter-spacing: 1px;
+	font-size: 22px;
+	display: inline-block;
+	background-color: #fafafa;
+}
+
+blockquote:first-letter {
+	font-size: 30px;
+	font-weight: 700;	
+}
+
+table {
+	border-spacing: 0;
+}
+
+table, th, td {
+	border-width: 1px;
+	border-style: solid;
+}

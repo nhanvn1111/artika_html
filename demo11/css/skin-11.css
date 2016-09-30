@@ -1,0 +1,150 @@
+/* COLORS */
+
+.clr-0 {
+	color: #ffffff;
+}
+
+.clr-1 {
+	color: #1B6FB7;
+}
+
+.clr-2 {
+	color: #8255B5;
+}
+
+.clr-3 {
+	color: #BFAAB9;
+}
+
+.clr-4 {
+	color: #536A99;
+}
+
+.clr-5 {
+	color: #fafafa;
+}
+
+.clr-h-0:hover {
+	color: #ffffff;
+}
+
+.clr-h-1:hover {
+	color: #1B6FB7;
+}
+
+.clr-h-2:hover {
+	color: #8255B5;
+}
+
+.clr-h-3:hover {
+	color: #f0a895;
+}
+
+.clr-h-4:hover {
+	color: #536A99;
+}
+
+.clr-h-5:hover {
+	color: #fafafa;
+}
+
+/* bg rgb */
+
+.bg-clr-0 {
+	background-color: #ffffff;
+}
+
+.bg-clr-1 {
+	background-color: #1B6FB7;
+}
+
+.bg-clr-2 {
+	background-color: #8255B5;
+}
+
+.bg-clr-3 {
+	background-color: #BFAAB9;
+}
+
+.bg-clr-4 {
+	background-color: #536A99;
+}
+
+.bg-clr-5 {
+	background-color: #fafafa;
+}
+
+.bg-clr-h-0:hover {
+	background-color: #ffffff;
+}
+
+.bg-clr-h-1:hover {
+	background-color: #1B6FB7;
+}
+
+.bg-clr-h-2:hover {
+	background-color: #8255B5;
+}
+
+.bg-clr-h-3:hover {
+	background-color: #f0a895;
+}
+
+.bg-clr-h-4:hover {
+	background-color: #536A99;
+}
+
+.bg-clr-5,
+.bg-clr-h-5 {
+	background-color: #fafafa;
+}
+
+/* bg rgba */
+
+.bg-alpha-0 {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.bg-alpha-1 {
+	background-color: rgba(27, 111, 183, 0.9);
+}
+
+.bg-alpha-2 {
+	background-color: rgba(130,85,181,0.9);
+}
+
+.bg-alpha-3 {
+	background-color: rgba(191, 170, 185, 0.9);
+}
+
+.bg-alpha-4 {
+	background-color: rgba(83,106,153,0.9);
+}
+
+.bg-alpha-5 {
+	background-color: rgba(220,220,220,0.9);
+}
+
+/* MENU COLORS */
+
+nav li i {
+	color: #8255B5;
+}
+
+nav li a,
+nav li span {
+	color: #8255B5;
+}
+
+nav li a:hover,
+nav li span:hover {
+	background: #536A99;
+}
+
+.switch {
+	color: #536A99;
+}
+
+.switch:hover {
+	color: #3D377A;
+}

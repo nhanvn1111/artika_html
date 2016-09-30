@@ -1,0 +1,185 @@
+/* COLORS */
+
+.clr-0 {
+	color: #ffffff;
+}
+
+.clr-1 {
+	color: #1C141E;
+}
+
+.clr-2 {
+	color: #AB85B4;
+}
+
+.clr-3 {
+	color: #44477E;
+}
+
+.clr-4 {
+	color: #BCC5D2;
+}
+
+.clr-5 {
+	color: #fafafa;
+}
+
+.clr-h-0:hover {
+	color: #ffffff;
+}
+
+.clr-h-1:hover {
+	color: #1C141E;
+}
+
+.clr-h-2:hover {
+	color: #AB85B4;
+}
+
+.clr-h-3:hover {
+	color: #44477E;
+}
+
+.clr-h-4:hover {
+	color: #BCC5D2;
+}
+
+.clr-h-5:hover {
+	color: #fafafa;
+}
+
+/* bg rgb */
+
+.bg-clr-0 {
+	background-color: #ffffff;
+}
+
+.bg-clr-1 {
+	background-color: #1C141E;
+}
+
+.bg-clr-2 {
+	background-color: #AB85B4;
+}
+
+.bg-clr-3 {
+	background-color: #44477E;
+}
+
+.bg-clr-4 {
+	background-color: #BCC5D2;
+}
+
+.bg-clr-5 {
+	background-color: #fafafa;
+}
+
+.bg-clr-h-0:hover {
+	background-color: #ffffff;
+}
+
+.bg-clr-h-1:hover {
+	background-color: #1C141E;
+}
+
+.bg-clr-h-2:hover {
+	background-color: #AB85B4;
+}
+
+.bg-clr-h-3:hover {
+	background-color: #44477E;
+}
+
+.bg-clr-h-4:hover {
+	background-color: #BCC5D2;
+}
+
+.bg-clr-5,
+.bg-clr-h-5 {
+	background-color: #fafafa;
+}
+
+/* bg rgba */
+
+.bg-alpha-0 {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.bg-alpha-1 {
+	background-color: rgba(28,20,30,0.9);
+}
+
+.bg-alpha-2 {
+	background-color: rgba(171,133,180,0.9);
+}
+
+.bg-alpha-3 {
+	background-color: rgba(68,71,126,0.9);
+}
+
+.bg-alpha-4 {
+	background-color: rgba(188,197,210,0.9);
+}
+
+.bg-alpha-5 {
+	background-color: rgba(250,250,250,0.9);
+}
+
+/* MENU COLORS */
+
+nav li i {
+	color: #AB85B4;
+}
+
+nav li a,
+nav li span {
+	color: #1C141E;
+}
+
+nav li a:hover,
+nav li span:hover {
+	background: #AB85B4;
+}
+
+.switch {
+	color: #1C141E;
+}
+
+.switch:hover {
+	color: #AB85B4;
+}
+
+
+/* OWL */
+
+#wall .owl-controls {
+	position: absolute;
+	left: 50%;
+	bottom: 145px;
+	z-index: 100;
+}
+
+#wall .owl-dot {
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	margin: 0 10px;
+	float: left;
+	
+	transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-webkit-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+}
+
+#wall .owl-dot:hover, #wall .owl-dot.active {
+	background: #AB85B4;
+		
+	transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-webkit-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+}

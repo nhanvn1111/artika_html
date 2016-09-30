@@ -1,0 +1,195 @@
+/* COLORS */
+
+.clr-0 {
+	color: #ffffff;
+}
+
+.clr-1 {
+	color: #b0bd93;
+}
+
+.clr-2 {
+	color: #697364;
+}
+
+.clr-3 {
+	color: #382133;
+}
+
+.clr-4 {
+	color: #873667;
+}
+
+.clr-5 {
+	color: #fafafa;
+}
+
+.clr-h-0:hover {
+	color: #ffffff;
+}
+
+.clr-h-1:hover {
+	color: #b0bd93;
+}
+
+.clr-h-2:hover {
+	color: #697364;
+}
+
+.clr-h-3:hover {
+	color: #382133;
+}
+
+.clr-h-4:hover {
+	color: #873667;
+}
+
+.clr-h-5:hover {
+	color: #fafafa;
+}
+
+/* bg rgb */
+
+.bg-clr-0 {
+	background-color: #ffffff;
+}
+
+.bg-clr-1 {
+	background-color: #b0bd93;
+}
+
+.bg-clr-2 {
+	background-color: #697364;
+}
+
+.bg-clr-3 {
+	background-color: #382133;
+}
+
+.bg-clr-4 {
+	background-color: #873667;
+}
+
+.bg-clr-5 {
+	background-color: #fafafa;
+}
+
+.bg-clr-h-0:hover {
+	background-color: #ffffff;
+}
+
+.bg-clr-h-1:hover {
+	background-color: #b0bd93;
+}
+
+.bg-clr-h-2:hover {
+	background-color: #697364;
+}
+
+.bg-clr-h-3:hover {
+	background-color: #382133;
+}
+
+.bg-clr-h-4:hover {
+	background-color: #873667;
+}
+
+.bg-clr-5,
+.bg-clr-h-5 {
+	background-color: #fafafa;
+}
+
+/* bg rgba */
+
+.bg-alpha-0 {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.bg-alpha-1 {
+	background-color: rgba(176,189,147,0.9);
+}
+
+.bg-alpha-2 {
+	background-color: rgba(105,115,100,0.9);
+}
+
+.bg-alpha-3 {
+	background-color: rgba(56,33,51,0.9);
+}
+
+.bg-alpha-4 {
+	background-color: rgba(135,54,103,0.9);
+}
+
+.bg-alpha-5 {
+	background-color: rgba(220,220,220,0.9);
+}
+
+/* MENU COLORS */
+
+nav li i {
+	color: #697364;
+}
+
+nav li a,
+nav li span {
+	color: #697364;
+}
+
+nav li a:hover,
+nav li span:hover {
+	background: #873667;
+}
+
+.switch {
+	color: #873667;
+}
+
+.switch:hover {
+	color: #b0bd93;
+}
+
+/* OWL */
+
+#quotes .owl-controls {
+	position: absolute;
+	left: 50%;
+	bottom: 25px;
+	z-index: 100;
+}
+
+#quotes .owl-dot {
+	display: block;
+	width: 15px;
+	height: 2px;
+	background: #ccc;
+	margin: 0 5px;
+	float: left;
+	
+	transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-webkit-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+}
+
+#quotes .owl-dot:hover {
+	background: #b0bd93;
+	
+	transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-webkit-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+}
+
+#quotes .owl-dot.active {
+	width: 30px;
+	background: #b0bd93;
+	
+	transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-webkit-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+}
